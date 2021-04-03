@@ -8,7 +8,6 @@ dotenv.config();
 
 //Routes
 const authRoute = require('./routes/auth');
-const postRoute = require('./routes/posts');
 
 // Middlewares
 app.use(express.urlencoded({ extended: true }));
@@ -16,7 +15,6 @@ app.use(express.json());
 
 // Routes Middleware
 app.use('/api/user', authRoute);
-app.use('/api/posts', postRoute);
 
 
 
