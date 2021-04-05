@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+/* font-family: 'Inter', sans-serif;
+font-family: 'Space Grotesk', sans-serif; */
+
+.title {
+  font-family: "Space Grotesk", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 0 150px;
+  font-size: 1.5rem;
+  min-height: 80vh;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 150px;
+}
+button {
+  border: none;
+  border-radius: 8px;
+  background-color: #3151e2;
+  padding: 12px 20px;
   color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 4px;
+  outline: none;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.secondary-button {
+  border: 2px solid rgb(133, 133, 133);
+  background: none;
+  color: black;
 }
