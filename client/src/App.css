@@ -5,7 +5,7 @@ font-family: 'Space Grotesk', sans-serif; */
   font-family: "Space Grotesk", sans-serif;
 }
 
-.home {
+.content {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,7 +13,7 @@ font-family: 'Space Grotesk', sans-serif; */
   font-size: 1.5rem;
   min-height: 80vh;
 }
-.header {
+.header1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,13 +22,20 @@ font-family: 'Space Grotesk', sans-serif; */
 button {
   border: none;
   border-radius: 8px;
-  background-color: #3151e2;
+  background-color: rgb(49, 81, 226);
   padding: 12px 20px;
   color: white;
   font-size: 18px;
   font-weight: 600;
   margin: 4px;
   outline: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+button:hover {
+  box-shadow: 4px 12px 26px -2px rgba(49, 81, 226, 0.4);
+  -webkit-box-shadow: 4px 12px 26px -2px rgba(49, 81, 226, 0.4);
+  -moz-box-shadow: 4px 12px 26px -2px rgba(49, 81, 226, 0.4);
 }
 .secondary-button {
   border: 2px solid rgb(133, 133, 133);
