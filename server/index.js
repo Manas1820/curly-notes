@@ -8,6 +8,7 @@ dotenv.config();
 
 //Routes
 const authRoute = require('./routes/auth');
+const notesRoute = require('./routes/notesRoute');
 
 // Middlewares
 app.use(express.urlencoded({ extended: true }));
@@ -15,6 +16,7 @@ app.use(express.json());
 
 // Routes Middleware
 app.use('/api/user', authRoute);
+app.use('/api/notes', notesRoute);
 
 
 
